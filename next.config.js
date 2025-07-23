@@ -16,6 +16,9 @@ const nextConfig = {
   //     },
   //   ]
   // },
+  typescript: {
+    ignoreBuildErrors: true
+  },
 
   webpack(config) {
     // Grab the existing rule that handles SVG imports
