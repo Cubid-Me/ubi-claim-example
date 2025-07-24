@@ -10,10 +10,14 @@ import 'cubid-wallet/dist/styles.css'
 import { siteConfig } from '@/constant/config';
 import dynamic from "next/dynamic";
 const CitizenUbiWalletProvider = dynamic(
-  () => import('cubid-wallet').then((mod) => mod.CitizenUbiWalletProvider),
+  () => import('cubid-wallet/dist/index.js').then((mod) => {
+    console.log(mod)
+    return mod.CitizenUbiWalletProvider
+  }),
   { ssr: false }
 );
 
+console.log({ CitizenUbiWalletProvider })
 export default function RootLayout({
   children,
 }: {
