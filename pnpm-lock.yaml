@@ -24,8 +24,8 @@ importers:
         specifier: ^2.1.5
         version: 2.1.5(@react-native-async-storage/async-storage@1.24.0(react-native@0.80.2(@babel/core@7.28.0)(@types/react@18.3.23)(bufferutil@4.0.9)(react@18.3.1)(utf-8-validate@5.0.10)))(@tanstack/query-core@5.83.0)(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(bn.js@5.2.2)(borsh@1.0.0)(bufferutil@4.0.9)(react-native@0.80.2(@babel/core@7.28.0)(@types/react@18.3.23)(bufferutil@4.0.9)(react@18.3.1)(utf-8-validate@5.0.10))(tailwindcss@3.4.17(ts-node@10.9.2(@types/node@24.1.0)(typescript@4.9.5)))(typescript@4.9.5)(use-sync-external-store@1.5.0(react@18.3.1))(utf-8-validate@5.0.10)(viem@2.33.0(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)(zod@3.25.76))(zod@3.25.76)
       cubid-wallet:
-        specifier: ^1.1.7
-        version: 1.1.7(0428b2fd865c9db7ceacf1aef0647730)
+        specifier: ^1.2.1
+        version: 1.2.1(0428b2fd865c9db7ceacf1aef0647730)
       lucide-react:
         specifier: ^0.438.0
         version: 0.438.0(react@18.3.1)
@@ -4351,8 +4351,8 @@ packages:
   cubid-sdk@2.1.5:
     resolution: {integrity: sha512-9Pi0EYGX3ZdQ/4tZC2ZKFEqiHCf35G4gLK9aXGkp+b9rbv3H45xLiZVRaGuaabxD//xpxVJJG2/FR6XGW520MQ==}
 
-  cubid-wallet@1.1.7:
-    resolution: {integrity: sha512-oqhQ8YB6FOTXoNYGwmOOS3A6QSzxGv9uuVsds5KkV/ozmlyuBYow9Wwe01AMfVhi400Vf/WKheHRYN1B6T3CVQ==}
+  cubid-wallet@1.2.1:
+    resolution: {integrity: sha512-JDqMSS/2C5gmM6AHq6nDCveiQuY672NARwDXkA7PJWrdb41ueHyPlcQWP86xouzXFrYPxfrL/qqAWiULYFpPdw==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -16908,7 +16908,7 @@ snapshots:
       - wait-for-expect
       - zod
 
-  cubid-wallet@1.1.7(0428b2fd865c9db7ceacf1aef0647730):
+  cubid-wallet@1.2.1(0428b2fd865c9db7ceacf1aef0647730):
     dependencies:
       '@babel/plugin-transform-react-jsx': 7.27.1(@babel/core@7.28.0)
       '@babel/runtime': 7.28.2

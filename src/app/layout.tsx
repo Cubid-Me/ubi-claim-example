@@ -10,7 +10,7 @@ import 'cubid-wallet/dist/styles.css'
 import { siteConfig } from '@/constant/config';
 import dynamic from "next/dynamic";
 const CitizenUbiWalletProvider = dynamic(
-  () => import('cubid-wallet/dist/index.js').then((mod) => {
+  () => import('cubid-wallet').then((mod) => {
     console.log(mod)
     return mod.CitizenUbiWalletProvider
   }),
